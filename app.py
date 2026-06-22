@@ -669,7 +669,7 @@ with col1:
     if os.path.exists(logo_path):
         st.image(logo_path, use_container_width=True)
 with col2:
-    st.markdown("<h1 style='text-align: left; margin-top: -15px; color: #111;'>Nebraska Omaha Pitching Reports</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: left; margin-top: -15px; color: #111;'>SIUE Pitching Reports</h1>", unsafe_allow_html=True)
     st.markdown("<p style='font-size: 18px; color: gray;'>Select your report type and upload a Trackman CSV file below to generate the formatted HTML report.</p>", unsafe_allow_html=True)
 
 st.divider()
